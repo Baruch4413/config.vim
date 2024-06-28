@@ -101,7 +101,7 @@ vim.cmd([[
 ]])
 
 vim.o.mouse = "a"
-vim.o.nowrap = false
+vim.o.wrap = true
 vim.o.ttimeoutlen = 50
 vim.o.encoding = "utf-8"
 vim.o.clipboard = "unnamedplus"
@@ -121,8 +121,8 @@ vim.o.hidden = true
 vim.o.showcmd = true
 vim.o.hlsearch = true
 vim.o.smartcase = true
-vim.o.nobackup = true
-vim.o.nowritebackup = true
+vim.o.backup = false
+vim.o.writebackup = false
 vim.o.termguicolors = true
 vim.o.cursorline = true
 vim.o.lazyredraw = true
